@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1{ 
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+#new {
+    background-color: green;
+    border:solid 2px white;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#new:hover{
+    background: linear-gradient(to bottom,green, #009900);
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+#search input[type=submit]:hover{
+    background-color: gray;
+}
+
+#search input{
+    padding: 10px;
+    border: none;
+}
+thead {
+    color: white;
+}
+td{
+    color: white;
+
+}
+table {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid 2px gray;
+    background-color: #333333;
+}
